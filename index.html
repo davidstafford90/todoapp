@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <title>todoapp</title>
     <link rel="stylesheet" href="css/cssb/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
 
 </head>
 <body>
-    <button onclick="alertMsg()">click me!</button>
-    <script src="js/jquery-2.1.3.min.js></script>
+<header class="done">
+    <input id="input" type="text" placeholder="Enter what your would like to do." style="width:210px;" />
+    <br />
+    <button onclick="addItem()">submit</button>
+
+</header>
+<div class="">
+    <ul id="theList">
+
+    </ul>
+</div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/jsb/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>

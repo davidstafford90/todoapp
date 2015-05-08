@@ -1,0 +1,9 @@
+button {
+    margin: 5px;
+}
+.strikeThrough{
+    text-decoration: line-through;
+}
+.strikeThrough button {
+    display: none;
+}
