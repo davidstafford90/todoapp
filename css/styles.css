@@ -1,3 +1,9 @@
+body{
+    background-image: url("../img/single-sheet-of-grungy-lined-note-paper-background-texture-picture-87220162.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
 button {
     margin: 5px;
 }
@@ -6,4 +12,21 @@ button {
 }
 .strikeThrough button {
     display: none;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    margin-left: 50%;
+}
+.hight{
+    margin-top: 7%;
+}
+.hight2{
+    margin-top: 5%;
+}
+#theList li{
+    margin-top: 5%;
 }
